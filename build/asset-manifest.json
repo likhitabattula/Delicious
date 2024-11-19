@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Delicious/static/css/main.c33940e7.css",
+    "main.js": "/Delicious/static/js/main.db23f841.js",
+    "static/js/453.9ebc09cf.chunk.js": "/Delicious/static/js/453.9ebc09cf.chunk.js",
+    "index.html": "/Delicious/index.html",
+    "main.c33940e7.css.map": "/Delicious/static/css/main.c33940e7.css.map",
+    "main.db23f841.js.map": "/Delicious/static/js/main.db23f841.js.map",
+    "453.9ebc09cf.chunk.js.map": "/Delicious/static/js/453.9ebc09cf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c33940e7.css",
+    "static/js/main.db23f841.js"
+  ]
+}
