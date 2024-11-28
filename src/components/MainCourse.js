@@ -6,19 +6,19 @@ function MainCourse(){
             id: 1,
             image: 'https://www.whiskaffair.com/wp-content/uploads/2023/05/Paneer-Kathi-Roll-2-6-360x480.jpg', 
             name: 'Paneer Kathi Roll',
-            cost: '$12',
+            cost: '12',
         },
         {
             id: 2,
             image: 'https://www.whiskaffair.com/wp-content/uploads/2021/05/Tuscan-Chicken-Mac-And-Cheese-2-3-360x480.jpg',
             name: 'Tuscan Chicken Mac and Cheese',
-            cost: '$25',
+            cost: '25',
         },
         {
             id: 3,
             image: 'https://www.whiskaffair.com/wp-content/uploads/2022/08/Amish-Chicken-2-3-360x480.jpg',
             name: 'Amish Chicken',
-            cost: '$20',
+            cost: '20',
         },
         
     ];

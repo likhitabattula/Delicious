@@ -1,11 +1,16 @@
 import React from "react";
 import { Link } from 'react-router-dom';
 
+import './Card.css';
  export default function Explore(){
     return(
-
-        <div
-        style={{
+       <div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+            <a class="navbar-brand" href="#">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/food-munch-img.png" class="food-munch-logo" />
+            </a>   
+            </nav>
+        <div style={{
           backgroundImage: "url(https://th.bing.com/th/id/R.dce0006daffa92bb895275a725952b7b?rik=2aw0TUfXHKyBTA&riu=http%3a%2f%2fst.depositphotos.com%2f1003368%2f2896%2fi%2f950%2fdepositphotos_28962817-stock-photo-healthy-organic-vegetables-on-a.jpg&ehk=h82BYjAYbMcYBEJJVdJyWx4mDmrG%2f6LsyDMscJWJiDI%3d&risl=&pid=ImgRaw&r=0)",
           
           backgroundSize: 'cover', // Ensures the image covers the full area
@@ -129,5 +134,6 @@ import { Link } from 'react-router-dom';
         </div>
 </div>
 </div>
+ </div>
     );
  }

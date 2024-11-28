@@ -2,6 +2,8 @@
 import React, { useState } from 'react';
 import Login from './Login';
 import { useNavigate } from 'react-router-dom'; 
+import { HashLink as Link } from 'react-router-hash-link';
+
 
 
 function Dashboard() {
@@ -33,13 +35,14 @@ function Dashboard() {
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ml-auto">
-                    <a class="nav-link active" id="navItem1" href="#wcuSection">
+                <Link to="#wcuSection"  class="nav-link active" id="navItem1" >
                         Why Choose Us?
-                        <span class="sr-only">(current)</span>
-                    </a>
-                    <a class="nav-link" href="#exploreMenuSection" id="navItem2">Explore Menu</a>
-                    <a class="nav-link" href="#deliveryPaymentSection" id="navItem3">Delivery & Payment</a>
-                    <a class="nav-link" href="#followUsSection" id="navItem4">Follow Us</a>
+                        </Link>
+
+                    <Link to="#exploreMenuSection" class="nav-link"  id="navItem2">Explore Menu</Link>
+                   
+                    <Link to="#deliveryPaymentSection" class="nav-link" id="navItem3">Delivery & Payment</Link>
+                    <Link to="#followUsSection"  class="nav-link" id="navItem4">Follow Us</Link>
                 </div>
             </div>
         </div>
@@ -48,9 +51,9 @@ function Dashboard() {
         <div class="text-center">
             <h1 class="banner-heading mb-3">Get Delicious Food Anytime</h1>
             <p class="banner-caption mb-4">Eat Smart & Healthy</p>
-            <button class="custom-button">View Menu</button>
+            {/* <button class="custom-button">View Menu</button> */}
             {/* <button class="custom-outline-button">Order Now </button> */}
-            <button onClick={handleOrderNowClick} class="custom-outline-button">Order Now</button>
+            <button onClick={handleOrderNowClick}class="custom-button">Order Now</button>
             {showLoginCard && <Login/>}
         </div>
 
@@ -224,7 +227,14 @@ function Dashboard() {
                         the true and unadulterated gifts from mother nature. with the true
                         and unadulterated gifts from mother nature.
                     </p>
+
+                    <a 
+                       href="https://www.youtube.com/watch?v=VIDEO_ID" 
+                      target="_blank" 
+                       rel="noopener noreferrer">
                     <button class="custom-button">Watch Video</button>
+                     </a>
+                    
                 </div>
             </div>
         </div>
